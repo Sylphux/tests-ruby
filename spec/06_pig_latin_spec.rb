@@ -12,7 +12,7 @@ describe "#translate" do
     expect(s).to eq("ananabay")
   end
 
-  it "translates a word beginning with two consonants" do
+  it "translates a word beginning with two consonants" do 
     s = translate("cherry")
     expect(s).to eq("errychay")
   end
@@ -22,7 +22,7 @@ describe "#translate" do
     expect(s).to eq("eatay iepay")
   end
 
-  it "translates a word beginning with three consonants" do
+  it "translates a word beginning with three consonants" do 
     expect(translate("three")).to eq("eethray")
   end
 
